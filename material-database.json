@@ -1,9 +1,9 @@
 [
     {
-        "id":"light_v_engrave", 
+        "$id":"light_v_engrave",
         "name":"Light Vector Engraving",
         "notes":"Just scribing",
-        "template":{    
+        "template":{
             "type": "Laser Fill Path",
             "params":{
                 "laserPower":"30",
@@ -14,7 +14,7 @@
         "_locked":false,
         "presets":[
             {
-                "id":"baltic_plywood",
+                "$id":"baltic_plywood",
                 "machine_profile":null,
                 "name": "Baltic Birch Plywood",
                 "notes": null,
@@ -27,7 +27,7 @@
                 }
             },
             {
-                "id":"cast_acrylic",
+                "$id":"cast_acrylic",
                 "machine_profile":null,
                 "name": "Cast Acrylic",
                 "notes": null,
@@ -40,5 +40,5 @@
                 }
             }
         ]
-    } 
+    }
 ]
