@@ -1,11 +1,11 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "definitions": {},
-    "$id": "http://cncpro.co/specs/material-database.json",
+    "$id": "https://raw.githubusercontent.com/LaserWeb/lw.materials/master/material-database.spec.json",
     "items": {
         "$id": "/items",
         "properties": {
-            "$id": {
+            "id": {
                 "$id": "/items/properties/id",
                 "type": "string"
             },
@@ -22,7 +22,7 @@
                 "items": {
                     "$id": "/items/properties/presets/items",
                     "properties": {
-                        "$id": {
+                        "id": {
                             "$id": "/items/properties/presets/items/properties/id",
                             "type": "string"
                         },
@@ -52,7 +52,7 @@
                     "required": [
                         "params",
                         "type",
-                        "$id"
+                        "id"
                     ],
                     "type": "object"
                 },
@@ -83,7 +83,7 @@
         },
         "required": [
             "presets",
-            "$id",
+            "id",
             "template"
         ],
         "type": "object"
